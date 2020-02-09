@@ -166,7 +166,9 @@ std::string Initiate_Quiz(std::string player_name, int &earth, int &water, int &
 
 	std::cout << "\nAlright " << player_name << ", we are going to test your elemental affinity now!\n";
 	std::cout << "\nWe're going to go through a series of questions to best determine your element.\n";
-	std::cout << "\n\n!!!!!!!!!!FIRST A MANDATORY DISCLAIMER!!!!!!!!!!\n\n";
+	std::cout << "\n\n================================================\n";
+	std::cout << "!!!!!!!!!!FIRST A MANDATORY DISCLAIMER!!!!!!!!!!\n";
+	std::cout << "================================================\n\n";
 
 	std::cout << "People are too complex to be defined by such a limited questionaire,\n especially one with zero professional input or supervision.\n";
 	std::cout << "This quiz is intended ONLY for fun and to demonstrate the programmers\n working knowledge of the C++ programming language.\n";
@@ -178,6 +180,7 @@ std::string Initiate_Quiz(std::string player_name, int &earth, int &water, int &
 	std::cout << "\nAlright, let's carry on!\n";
 	enter_continue();
 
+	std::cout << "There are a total of 10 questions and a bonus question at the end!\n\n\n";
 
 	std::cout << "QUESTION ONE:\n";
 	std::cout << "You just witnessed something traumatic, how do you react?\n";
